@@ -1,0 +1,72 @@
+input {
+  border: none;
+  height: 5vh;
+  width: 60vw;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 2px 2px #3e3e3e44;
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+form {
+  display: flex;
+  height: 130vh;
+  width: 95vw;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: white;
+  border-radius: 3rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  box-shadow: 10px -20px 0px 5px rgba(255, 255, 255, 0.458);
+}
+.line {
+  height: 0.1rem;
+  width: 15rem;
+}
+.pic {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+h3 {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: linear-gradient(to left, #747ce957, #041e50);
+  box-shadow: 0px 10px 10px 1px rgba(125, 125, 125, 0.308);
+}
+#submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  padding: 1rem 1rem 1rem 1rem;
+  color: white;
+  background: linear-gradient(to left, #2c2ec7df, #041e50);
+}
+.title {
+    color: #041e50;
+    border-radius: 1rem;
+}
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+    background-color: white;
+}
